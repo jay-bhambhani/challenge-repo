@@ -1,4 +1,4 @@
-# challenge-repo
+# s3-stats
 ## Overview  
 Will create some basic statistics for an s3 account  
 ## Installation
