@@ -1,9 +1,10 @@
 import io
+import boto3
 import pytest
 from testcontainers.compose import DockerCompose
-import boto3
 
-from s3_stats import get_s3_stats, DisplayConverter, create_table
+from src.s3_stats import get_s3_stats
+from src.abstractions.display_converter import DisplayConverter
 
 
 def get_test_s3(compose):

@@ -1,7 +1,7 @@
 import typing
 from datetime import datetime
 
-from abstractions.display_converter import DisplayConverter
+from src.abstractions.display_converter import DisplayConverter
 
 
 class S3SimpleDist:
