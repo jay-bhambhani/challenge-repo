@@ -10,7 +10,7 @@ To convert bytes to another format:
 "Gi" for Gb, "Mi" for Mb and "ki" for kb. Pass as optional arg, i.e.:
 `python src/s3_stats.py -c Mi`
 ## Tests
-Please make sure you have Docker install on your computer. A test fixture
+Please make sure you have Docker and docker-compose installed on your computer. A test fixture
 will be generated that utilizes docker to install a local version of S3
 (Minio). Then, simply run
 `pytest`
