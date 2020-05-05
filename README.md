@@ -3,7 +3,10 @@
 Will create some basic statistics for an s3 account  
 ## Installation
 Download this repo. Then run
-`python setup.py install`
+`python setup.py install` 
+## Prerequisites  
+Please have AWS access keys stored as environment variables or in your ~/.aws folder, as  
+described here https://boto3.amazonaws.com/v1/documentation/api/latest/guide/configuration.html
 ## To Use
 `python src/s3_stats.py`
 To convert bytes to another format:
