@@ -1,13 +1,11 @@
 import argparse
 import typing
-import sys
-print(sys.path)
 
 import boto3
-from src.abstractions.display_converter import DisplayConverter
 from terminaltables import GithubFlavoredMarkdownTable
 
 from src.abstractions.bucket_stats import BucketStats
+from src.abstractions.display_converter import DisplayConverter
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-c', '--conversion', type=str, help='convert total byte size. optional, but must be one of ki, Mi, Gi')
